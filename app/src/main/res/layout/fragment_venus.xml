@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     tools:context="com.apple.planetario.Venus">
 
-    <!-- TODO: Update blank fragment layout -->
     <ImageView
         android:id="@+id/venus"
         android:layout_width="wrap_content"

@@ -25,15 +25,6 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -90,6 +81,16 @@ public class MainActivity extends AppCompatActivity
             fragmento = new Mercurio();
         } else if (id == R.id.Jupiter) {
             fragmento = new Jupiter();
+        }else if (id == R.id.Marte) {
+            fragmento = new Marte();
+        }else if (id == R.id.Neptuno) {
+            fragmento = new Neptuno();
+        }else if (id == R.id.Pluton) {
+            fragmento = new Pluton();
+        }else if (id == R.id.Saturno) {
+            fragmento = new Saturno();
+        }else if (id == R.id.Urano) {
+            fragmento = new Urano();
         }
 
         if(fragmento !=null){

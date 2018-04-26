@@ -20,6 +20,26 @@
             android:id="@+id/Jupiter"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Jupiter" />
+        <item
+            android:id="@+id/Marte"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Marte" />
+        <item
+            android:id="@+id/Neptuno"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Neptuno" />
+        <item
+            android:id="@+id/Pluton"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Pluton" />
+        <item
+            android:id="@+id/Saturno"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Saturno" />
+        <item
+            android:id="@+id/Urano"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Urano" />
     </group>
 
 </menu>
