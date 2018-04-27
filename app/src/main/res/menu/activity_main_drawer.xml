@@ -6,39 +6,39 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/Tierra"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/planet"
             android:title="La Tierra" />
         <item
             android:id="@+id/Venus"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/planet"
             android:title="Venus" />
         <item
             android:id="@+id/Mercurio"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/planet"
             android:title="Mercurio" />
         <item
             android:id="@+id/Jupiter"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/planet"
             android:title="Jupiter" />
         <item
             android:id="@+id/Marte"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/planet"
             android:title="Marte" />
         <item
             android:id="@+id/Neptuno"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/planet"
             android:title="Neptuno" />
         <item
             android:id="@+id/Pluton"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/planet"
             android:title="Pluton" />
         <item
             android:id="@+id/Saturno"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/planet"
             android:title="Saturno" />
         <item
             android:id="@+id/Urano"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/planet"
             android:title="Urano" />
     </group>
 
